@@ -186,6 +186,10 @@ export default function App() {
   
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (!data.name || !data.email || !data.message) {
+      alert("Please fill all the fields!");
+      return;
+    }
     try {
       let settingFormData = async () => {
         const setFormData = await fetch("https://my-portfolio-backend-as2h.onrender.com/setFormData", {
