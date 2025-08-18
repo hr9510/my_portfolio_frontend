@@ -275,9 +275,9 @@ export default function App() {
           <h1 className="pb-2 mb-6 text-3xl font-bold border-b-2 border-blue-500">Projects</h1>
           <div className="grid gap-6 md:grid-cols-3">
             {[
-              {title: "Expense Tracker", desc: "Track and manage expenses with accounts.", tech: "React, Tailwind, Flask, PostgreSQL", link: "https://rb.gy/bhkaxf"},
-              { title: "Restaurant App", desc: "Modern food ordering platform.", tech: "React, Flask, Tailwind", link: "https://short-link.me/1bpy8" },
-              {title: "Math Game", desc: "Fun interactive math learning game.", tech: "Vite-React, Tailwind", link: "https://short-link.me/1bpxU"}
+              {title: "Expense Tracker", desc: "Track and manage expenses with accounts.", tech: "React, Tailwind, Flask, PostgreSQL", link: "https://expanse-tracker-frontend-yve2.vercel.app/"},
+              { title: "Restaurant App", desc: "Modern food ordering platform.", tech: "React, Flask, Tailwind", link: "https://my-react-app-1egg.vercel.app/" },
+              {title: "Math Game", desc: "Fun interactive math learning game.", tech: "Vite-React, Tailwind", link: "https://frontend-game-xi.vercel.app/ "}
             ].map((project, idx) => (
               <div key={idx} className="p-5 transition bg-gray-100 shadow rounded-xl hover:shadow-xl hover:scale-105">
                 <h1 className="text-xl font-bold">{project.title}</h1>
