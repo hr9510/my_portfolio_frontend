@@ -188,7 +188,7 @@ export default function App() {
     e.preventDefault();
     try {
       let settingFormData = async () => {
-        const setFormData = await fetch("http://localhost:5000/setFormData", {
+        const setFormData = await fetch("https://my-portfolio-backend-as2h.onrender.com/", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(data)
