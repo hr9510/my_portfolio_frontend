@@ -101,7 +101,8 @@ export default function App() {
             {[
               {title: "Expense Tracker", desc: "Track and manage expenses with accounts.", tech: "React, Tailwind, Flask, PostgreSQL", link: "https://expanse-tracker-frontend-yve2.vercel.app/"},
               { title: "Restaurant App", desc: "Modern food ordering platform.", tech: "React, Flask, Tailwind", link: "https://my-react-app-1egg.vercel.app/" },
-              {title: "Math Game", desc: "Fun interactive math learning game.", tech: "Vite-React, Tailwind", link: "https://frontend-game-xi.vercel.app/ "}
+              {title: "Math Game", desc: "Fun interactive math learning game.", tech: "Vite-React, Tailwind", link: "https://frontend-game-xi.vercel.app/ "},
+              {title: "QR Code Generator", desc: "Generate QR Code of text and url and simply download", tech: "Nextjs, Tailwind", link: "https://basic-project-mocha.vercel.app/"}
             ].map((project, idx) => (
               <div key={idx} className="p-5 transition bg-gray-100 shadow rounded-xl hover:shadow-xl hover:scale-105">
                 <h1 className="text-xl font-bold">{project.title}</h1>
